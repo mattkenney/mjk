@@ -1,0 +1,18 @@
+<h2>Git Gnome Keyring Credential Helper</h2><div>Mar 9, 2016 &#8226; 1:06 PM</div><h2>Introduction</h2><p>Connecting to a remote Git server will generally require user authentication, at least for operations that change data on the server, like <span>git push</span>. This means either typing in a username and password for every operation, or using some form of stored credentials.</p><p>If the connection uses SSH (i.e. the remote URL starts with ssh:) then the stored credentials that SSH supports, such as private key files in ~/.ssh, can be used.</p><p>If the connection uses HTTPS (i.e. the remote URL starts with https:) then a Git credential helper can be used to avoid having to type a username and password over and over. On a Linux machine with a Gnome desktop environment, the Gnome Keyring credential helper is the secure option.</p><h2>Installation</h2><p>The Gnome Keyring credential helper is part of the standard Git distribution, but is included as source. To use it on a Debian-based distribution (like Ubuntu), do this:</p>
+<pre>
+sudo apt-get install libgnome-keyring-dev
+cp -R /usr/share/doc/git/contrib/credential/gnome-keyring ~
+cd ~/gnome-keyring
+make
+sudo chown root:root git-credential-gnome-keyring
+sudo mv git-credential-gnome-keyring /usr/local/bin
+cd
+rm -R ~/gnome-keyring
+git config --global credential.helper gnome-keyring
+</pre>
+<p>Now, with the Gnome Keyring credential helper configured, you will only need to type in your username and password the first time you connect to a Git server.</p><h2><a><span/></a>GitHub Two-Factor Authentication</h2><p>To connect with remote repositories at GitHub with two-factor authentication enabled, you must use a personal access token in place of your GitHub password. Create a personal access token <span>with "repo" scope</span>, as described in the GitHub <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">documentation</a>. Do this at the time you need the token, because you will only be able to view the token once.</p><h2>Using Gnome Keyring via SSH</h2><p>If you connect to your desktop via SSH, the Gnome Keyring credential helper may not work, because DBUS is not normally configured to be accessible to remote logins. However, you can start DBUS manually like this:</p>
+<pre>
+ssh -Y hostname
+eval $(dbus-launch --exit-with-session --sh-syntax)
+</pre>
+<p>You will be prompted for your desktop password the first time you need a password (or personal access token) from Gnome Keyring in a remote session.</p>

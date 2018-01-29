@@ -52,6 +52,12 @@ module.exports = merge(common, {
         },
         template: './src/index.html'
     }),
-    new UglifyJSPlugin()
+    new UglifyJSPlugin({
+      uglifyOptions: {
+        compress: {
+          reduce_vars: false // see https://github.com/developit/preact/issues/961
+        }
+      }
+    })
   ]
 });

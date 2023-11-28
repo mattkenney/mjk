@@ -1,11 +1,7 @@
-import * as React from 'react';
-
 import { Link } from 'react-router-dom';
-import Content from 'react-bulma-components/lib/components/content';
-import Panel from 'react-bulma-components/lib/components/panel';
+import { Content, Panel } from 'react-bulma-components';
 
-export default function Tools()
-{
+export function Music() {
   return (
     <Panel>
       <Panel.Header>Music I Love</Panel.Header>

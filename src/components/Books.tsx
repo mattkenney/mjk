@@ -1,10 +1,6 @@
-import * as React from 'react';
+import { Content, Panel } from 'react-bulma-components';
 
-import Content from 'react-bulma-components/lib/components/content';
-import Panel from 'react-bulma-components/lib/components/panel';
-
-export default function Books()
-{
+export function Books() {
   return (
     <Panel>
       <Panel.Header>Books I Liked</Panel.Header>

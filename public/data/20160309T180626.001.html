@@ -1,4 +1,27 @@
-<h2>Git Gnome Keyring Credential Helper</h2><div>Mar 9, 2016 &#8226; 1:06 PM</div><h2>Introduction</h2><p>Connecting to a remote Git server will generally require user authentication, at least for operations that change data on the server, like <span>git push</span>. This means either typing in a username and password for every operation, or using some form of stored credentials.</p><p>If the connection uses SSH (i.e. the remote URL starts with ssh:) then the stored credentials that SSH supports, such as private key files in ~/.ssh, can be used.</p><p>If the connection uses HTTPS (i.e. the remote URL starts with https:) then a Git credential helper can be used to avoid having to type a username and password over and over. On a Linux machine with a Gnome desktop environment, the Gnome Keyring credential helper is the secure option.</p><h2>Installation</h2><p>The Gnome Keyring credential helper is part of the standard Git distribution, but is included as source. To use it on a Debian-based distribution (like Ubuntu), do this:</p>
+<h2>Git Gnome Keyring Credential Helper</h2><div>Mar 9, 2016 &#8226; 1:06 PM</div>
+<!-- begin update 2024-01-07 -->
+<br />
+<div class="card">
+<div class="card-content">
+<div class="content">
+Update Jan 7, 2024: In GNOME, libgnome-keyring has been replaced by libsecret,
+so the installation steps are now -
+<pre>
+sudo apt-get install libsecret-1-dev
+cp -R /usr/share/doc/git/contrib/credential/libsecret ~
+cd ~/libsecret
+make
+sudo chown root:root git-credential-libsecret
+sudo mv git-credential-libsecret /usr/local/bin
+cd
+rm -R ~/libsecret
+git config --global credential.helper libsecret
+</pre>
+</div>
+</div>
+</div>
+<!-- end update 2024-01-07 -->
+<h2>Introduction</h2><p>Connecting to a remote Git server will generally require user authentication, at least for operations that change data on the server, like <span>git push</span>. This means either typing in a username and password for every operation, or using some form of stored credentials.</p><p>If the connection uses SSH (i.e. the remote URL starts with ssh:) then the stored credentials that SSH supports, such as private key files in ~/.ssh, can be used.</p><p>If the connection uses HTTPS (i.e. the remote URL starts with https:) then a Git credential helper can be used to avoid having to type a username and password over and over. On a Linux machine with a Gnome desktop environment, the Gnome Keyring credential helper is the secure option.</p><h2>Installation</h2><p>The Gnome Keyring credential helper is part of the standard Git distribution, but is included as source. To use it on a Debian-based distribution (like Ubuntu), do this:</p>
 <pre>
 sudo apt-get install libgnome-keyring-dev
 cp -R /usr/share/doc/git/contrib/credential/gnome-keyring ~

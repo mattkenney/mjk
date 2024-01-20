@@ -6,7 +6,7 @@ export function Websites() {
       <Panel.Header>Websites</Panel.Header>
       <Panel.Block>
         <Content>
-          Some websites I built for fun and learning:
+          Some websites I built for fun:
           <br/>
           <a href="https://mwthr.com">mwthr.com</a>: US weather{' '}
           (<a href="https://react.dev/reference/react">React</a>{' & '}

@@ -1,9 +1,18 @@
+a[href] {
+  text-decoration-line: underline;
+  text-decoration-color: #36363666;
+}
+
 .del {
   text-decoration: line-through;
 }
 
 .nom {
   font-style: italic;
+}
+
+.search-container {
+  width: 100%;
 }
 
 .video-container {

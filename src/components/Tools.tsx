@@ -21,10 +21,11 @@ export function Tools() {
             <a href="https://webpack.js.org/concepts/">Webpack</a>
           </p>
           <p>Java:<br/>
-            <a href="https://docs.oracle.com/javase/specs/jls/se8/html/index.html">JLS</a>{', '}
-            <a href="https://docs.oracle.com/en/java/javase/21/docs/api/index.html">Java SE</a>{', '}
-            <a href="https://docs.oracle.com/javaee/7/api/overview-summary.html">Java EE</a>{' & '}
-            <a href="https://spring.io/projects/spring-boot">Spring</a>
+            <a href="https://docs.oracle.com/javase/specs/jls/se21/html/index.html">JLS</a>{', '}
+            <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/module-summary.html">Java SE</a>{', '}
+            <a href="https://jakarta.ee/specifications/platform/10/apidocs/">Jakarta EE</a>{', '}
+            <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/index.html">Spring</a>{' & '}
+            <a href="https://spring.io/projects/spring-boot">Spring Boot</a>
           </p>
         </Content>
       </Panel.Block>

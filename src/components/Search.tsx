@@ -1,14 +1,22 @@
-import { ReactNode } from 'react';
+import { ReactNode, useEffect, useRef } from 'react';
 import { Button, Form } from 'react-bulma-components';
 
 export interface SearchProps {
   action: string;
   children?: ReactNode;
+  focus?: boolean;
   label: string;
   name?: string;
 }
 
-export function Search({ action, children, label, name = 'q' }: SearchProps) {
+export function Search({ action, children, focus, label, name = 'q' }: SearchProps) {
+  const inputRef = useRef(null);
+  useEffect(() => {
+    if (!focus) return;
+    const input = inputRef.current as unknown as HTMLElement;
+    input?.focus();
+  }, [focus, inputRef]);
+
   return (
     <form action={action}>
       <Form.Field horizontal>
@@ -18,7 +26,7 @@ export function Search({ action, children, label, name = 'q' }: SearchProps) {
         <Form.Field.Body>
           <Form.Field kind="addons">
             <Form.Control fullwidth>
-              <Form.Input autoComplete="off" name={name} type="search" />
+              <Form.Input autoComplete="off" domRef={inputRef} name={name} type="search" />
             </Form.Control>
             <Form.Control>
               <Button color="info">Search</Button>

@@ -16,6 +16,7 @@ export function JavaPlatform() {
             <div>{'Spring '}
               <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/index.html">Framework</a>{', '}
               <a href="https://docs.spring.io/spring-boot/api/java/index.html">Boot</a>{', '}
+              <a href="https://docs.spring.io/spring-batch/docs/current/api/">Batch</a>{', '}
               <a href="https://docs.spring.io/spring-data/commons/docs/current/api/index.html">Data</a>
             </div>
         </Content>

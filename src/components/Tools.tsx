@@ -17,7 +17,7 @@ export function Tools() {
           <p>Standbys:<br/>
             <a href="https://babeljs.io/docs/">Babel</a>{', '}
             <a href="https://api.jquery.com/">jQuery</a>{', '}
-            <a href="https://docs.python.org/3/library/index.html">Python</a>{' & '}
+            <a href="https://docs.python.org/3/index.html">Python</a>{' & '}
             <a href="https://webpack.js.org/concepts/">Webpack</a>
           </p>
           <p>Java:<br/>

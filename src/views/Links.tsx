@@ -9,15 +9,15 @@ export function Links() {
     <Section>
       <Columns>
         <Columns.Column>
-          <JavaPlatform/>
-        </Columns.Column>
-        <Columns.Column>
-          <JavaEcosystem/>
+          <SearchPanel/>
         </Columns.Column>
       </Columns>
       <Columns>
         <Columns.Column>
-          <SearchPanel/>
+          <JavaPlatform/>
+        </Columns.Column>
+        <Columns.Column>
+          <JavaEcosystem/>
         </Columns.Column>
       </Columns>
     </Section>

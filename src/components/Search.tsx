@@ -5,11 +5,10 @@ export interface SearchProps {
   action: string;
   children?: ReactNode;
   focus?: boolean;
-  label: string;
   name?: string;
 }
 
-export function Search({ action, children, focus, label, name = 'q' }: SearchProps) {
+export function Search({ action, children, focus, name = 'q' }: SearchProps) {
   const inputRef = useRef(null);
   useEffect(() => {
     if (!focus) return;
@@ -20,9 +19,6 @@ export function Search({ action, children, focus, label, name = 'q' }: SearchPro
   return (
     <form action={action}>
       <Form.Field horizontal>
-        <Form.Field.Label>
-          <Form.Label>{label}</Form.Label>
-        </Form.Field.Label>
         <Form.Field.Body>
           <Form.Field kind="addons">
             <Form.Control fullwidth>

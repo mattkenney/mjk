@@ -22,7 +22,7 @@ export function Search({ action, children, focus, name = 'q' }: SearchProps) {
         <Form.Field.Body>
           <Form.Field kind="addons">
             <Form.Control fullwidth>
-              <Form.Input autoComplete="off" domRef={inputRef} name={name} type="search" />
+              <Form.Input autoComplete="off" autoCorrect="off" domRef={inputRef} name={name} type="search" />
             </Form.Control>
             <Form.Control>
               <Button color="info">Search</Button>

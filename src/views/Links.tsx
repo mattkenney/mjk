@@ -1,5 +1,6 @@
 import { Columns, Section } from 'react-bulma-components';
 
+import { CloudInfo } from '../components/CloudInfo';
 import { JavaEcosystem } from '../components/JavaEcosystem';
 import { JavaPlatform } from '../components/JavaPlatform';
 import { SearchPanel } from '../components/SearchPanel';
@@ -28,6 +29,7 @@ export function Links() {
           <PythonInfo/>
         </Columns.Column>
         <Columns.Column>
+          <CloudInfo/>
         </Columns.Column>
       </Columns>
       <Columns>

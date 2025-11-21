@@ -5,6 +5,7 @@ import { JavaPlatform } from '../components/JavaPlatform';
 import { SearchPanel } from '../components/SearchPanel';
 import { PythonInfo } from '../components/PythonInfo';
 import { ReactInfo } from '../components/ReactInfo';
+import { ServerFrameworks } from '../components/ServerFrameworks';
 
 export function Links() {
   return (
@@ -19,7 +20,14 @@ export function Links() {
           <ReactInfo/>
         </Columns.Column>
         <Columns.Column>
+          <ServerFrameworks/>
+        </Columns.Column>
+      </Columns>
+      <Columns>
+        <Columns.Column>
           <PythonInfo/>
+        </Columns.Column>
+        <Columns.Column>
         </Columns.Column>
       </Columns>
       <Columns>

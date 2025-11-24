@@ -6,6 +6,7 @@ import { BlogEntry } from './views/BlogEntry';
 import { Home } from './views/Home';
 import { Links } from './views/Links';
 import { Music } from './views/Music';
+import { Venues } from './views/Venues';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/blog/:id" element={<BlogEntry/>}/>
           <Route path="/links" element={<Links/>}/>
+          <Route path="/live" element={<Venues/>}/>
           <Route path="/music/:id" element={<Music/>}/>
           <Route path="*" element={<Home/>}/>
         </Routes>

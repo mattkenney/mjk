@@ -15,6 +15,14 @@ a[href] {
   width: 100%;
 }
 
+.venue {
+  display: inline-block;
+  min-height: 18ex;
+  min-width: 20em;
+  padding: 1ex;
+  vertical-align: top;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

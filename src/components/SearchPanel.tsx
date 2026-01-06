@@ -5,6 +5,7 @@ import duckDuckGo from './icons/duckduckgo-icon.svg';
 import google from './icons/google-icon.svg';
 import googleNews from './icons/google-news-icon.svg';
 import mdn from './icons/mdn-icon.svg';
+import npm from './icons/npm-icon.svg';
 import wikipedia from './icons/wikipedia-icon.svg';
 
 interface Zone {
@@ -38,6 +39,11 @@ const zones: Zone[] = [
     action: 'https://developer.mozilla.org/en-US/search',
     alt: 'Mozilla Developer Network',
     src: mdn,
+  },
+  {
+    action: 'https://www.npmjs.com/search',
+    alt: 'npm Registry',
+    src: npm,
   },
   {
     action: 'https://en.wikipedia.org/w/index.php',

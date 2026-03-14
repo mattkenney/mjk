@@ -100,6 +100,14 @@ capacity: 150<br/>
 neighborhood: South Street<br/>
 </div>
 <div className="venue">
+Ortlieb&#039;s<br/>
+<a href="https://ortliebsphilly.com/">ortliebsphilly.com</a><br/>
+847 N 3rd Street<br/>
+Philadelphia, PA 19123<br/>
+capacity: 100<br/>
+neighborhood: Northern Liberties<br/>
+</div>
+<div className="venue">
 PhilaMOCA<br/>
 <a href="https://www.philamoca.org/">www.philamoca.org</a><br/>
 531 N 12th Street<br/>
@@ -156,7 +164,7 @@ World Cafe Live<br/>
 <a href="https://worldcafelive.org/">worldcafelive.org</a><br/>
 3025 Walnut Street<br/>
 Philadelphia, PA 19104<br/>
-capacity: 650 Music Hall, 250 Lounge<br/>
+capacity: 650 Music Hall, 220 Lounge<br/>
 neighborhood: University City<br/>
 </div>
 </div>

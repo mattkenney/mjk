@@ -74,6 +74,13 @@ capacity: 140<br/>
 neighborhood: Fishtown<br/>
 </div>
 <div className="venue">
+The Lansdowne Theater<br/>
+<a href="https://thelansdownetheater.com/">thelansdownetheater.com</a><br/>
+31 N Lansdowne Ave<br/>
+Lansdowne, PA 19050<br/>
+capacity: 1280<br/>
+</div>
+<div className="venue">
 The Met Philadelphia<br/>
 <a href="https://www.themetphilly.com/shows">www.themetphilly.com</a><br/>
 <a href="https://www.livenation.com/venue/KovZ917Ahxb/the-met-presented-by-highmark-events">www.livenation.com</a><br/>

@@ -20,12 +20,70 @@ a[href] {
 }
 
 .history-photo {
+  position: relative;
   display: block;
   width: 480px;
   max-width: 100%;
   aspect-ratio: 9 / 6;
-  object-fit: cover;
   margin-bottom: 0.75rem;
+  cursor: zoom-in;
+}
+
+.history-photo > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.history-dialog {
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0;
+  border: 2px solid #999;
+  outline: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+.history-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.history-zoom {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+  cursor: zoom-out;
+}
+
+.history-zoom > img {
+  display: block;
+  max-width: 95vw;
+  max-height: 95vh;
+}
+
+.history-photo > .zoom-hint,
+.history-zoom > .close-hint {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.history-photo > .zoom-hint {
+  padding-bottom: 4px;
 }
 
 .venue {

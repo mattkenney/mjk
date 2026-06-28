@@ -1,0 +1,183 @@
+{
+  "venues": [
+    {
+      "name": "Chris' Jazz Cafe",
+      "links": [
+        { "url": "https://www.chrisjazzcafe.com", "text": "www.chrisjazzcafe.com" }
+      ],
+      "address": ["1421 Sansom Street", "Philadelphia PA 19102"],
+      "capacity": "110",
+      "neighborhood": "Center City"
+    },
+    {
+      "name": "The Fillmore Philadelphia",
+      "links": [
+        { "url": "https://www.thefillmorephilly.com/", "text": "www.thefillmorephilly.com" },
+        { "url": "https://www.livenation.com/venue/KovZpZAEkteA/the-fillmore-philadelphia-events", "text": "www.livenation.com" }
+      ],
+      "address": ["29 E Allen Street", "Philadelphia, PA 19123"],
+      "capacity": "2,500 Fillmore, 450 Foundry",
+      "neighborhood": "Fishtown"
+    },
+    {
+      "name": "First Unitarian Church",
+      "links": [
+        { "url": "https://philauu.org/", "text": "philauu.org" },
+        { "url": "https://r5productions.com/events/", "text": "r5productions.com" }
+      ],
+      "address": ["2125 Chestnut Street", "Philadelphia, PA 19103"],
+      "neighborhood": "Center City"
+    },
+    {
+      "name": "Franklin Music Hall",
+      "links": [
+        { "url": "https://franklinmusichall.com/", "text": "franklinmusichall.com" },
+        { "url": "https://www.bowerypresents.com/greater-philly/shows/franklin-music-hall", "text": "www.bowerypresents.com" }
+      ],
+      "address": ["421 N 7th Street", "Philadelphia, PA 19123"],
+      "capacity": "3,000",
+      "neighborhood": "Callowhill",
+      "nee": "Electric Factory"
+    },
+    {
+      "name": "Johnny Brenda's",
+      "links": [
+        { "url": "https://johnnybrendas.com/", "text": "johnnybrendas.com" }
+      ],
+      "address": ["1201 Frankford Avenue", "Philadelphia, PA 19125"],
+      "capacity": "250",
+      "neighborhood": "Fishtown"
+    },
+    {
+      "name": "Keswick Theatre",
+      "links": [
+        { "url": "https://www.keswicktheatre.com/", "text": "www.keswicktheatre.com" },
+        { "url": "https://www.bowerypresents.com/greater-philly/shows/keswick-theatre", "text": "www.bowerypresents.com" }
+      ],
+      "address": ["291 N Keswick Avenue", "Glenside, Pennsylvania 19038"],
+      "capacity": "1,300"
+    },
+    {
+      "name": "Kung Fu Necktie",
+      "links": [
+        { "url": "https://kungfunecktie.com/", "text": "kungfunecktie.com" }
+      ],
+      "address": ["1248 N Front Street", "Philadelphia, PA 19122"],
+      "capacity": "140",
+      "neighborhood": "Fishtown"
+    },
+    {
+      "name": "The Lansdowne Theater",
+      "links": [
+        { "url": "https://thelansdownetheater.com/", "text": "thelansdownetheater.com" }
+      ],
+      "address": ["31 N Lansdowne Ave", "Lansdowne, PA 19050"],
+      "capacity": "1280"
+    },
+    {
+      "name": "The Met Philadelphia",
+      "links": [
+        { "url": "https://www.themetphilly.com/shows", "text": "www.themetphilly.com" },
+        { "url": "https://www.livenation.com/venue/KovZ917Ahxb/the-met-presented-by-highmark-events", "text": "www.livenation.com" }
+      ],
+      "address": ["858 North Broad Street", "Philadelphia, PA 19130"],
+      "capacity": "3,500",
+      "neighborhood": "North Broad"
+    },
+    {
+      "name": "MilkBoy Philadelphia",
+      "links": [
+        { "url": "https://milkboyphilly.com", "text": "milkboyphilly.com" }
+      ],
+      "address": ["1100 Chestnut Street", "Philadephia, PA 19107"],
+      "capacity": "200",
+      "neighborhood": "Center City"
+    },
+    {
+      "name": "Nikki Lopez",
+      "links": [
+        { "url": "https://www.scenicnyc.com/nikkilopez/", "text": "www.scenicnyc.com" },
+        { "url": "https://www.livenation.com/venue/rZ7HnEZ17QZPN/nikki-lopez-philly-events", "text": "www.livenation.com" }
+      ],
+      "address": ["304 South Street", "Philadephia, PA 19147"],
+      "capacity": "150",
+      "neighborhood": "South Street"
+    },
+    {
+      "name": "Ortlieb's",
+      "links": [
+        { "url": "https://ortliebsphilly.com/", "text": "ortliebsphilly.com" }
+      ],
+      "address": ["847 N 3rd Street", "Philadelphia, PA 19123"],
+      "capacity": "100",
+      "neighborhood": "Northern Liberties"
+    },
+    {
+      "name": "PhilaMOCA",
+      "links": [
+        { "url": "https://www.philamoca.org/", "text": "www.philamoca.org" }
+      ],
+      "address": ["531 N 12th Street", "Philadelphia, PA 19123"],
+      "capacity": "175",
+      "neighborhood": "Callowhill"
+    },
+    {
+      "name": "The Queen",
+      "links": [
+        { "url": "https://thequeenwilmington.com/shows/", "text": "thequeenwilmington.com" }
+      ],
+      "address": ["500 N Market Street", "Wilmington, DE 19801"],
+      "capacity": "1,100 Queen, 100 Crown"
+    },
+    {
+      "name": "Solar Myth",
+      "links": [
+        { "url": "https://solarmythbar.com/live_music/", "text": "solarmythbar.com" }
+      ],
+      "address": ["1131 S Broad Street", "Philadephia, PA 19147"],
+      "capacity": "150",
+      "neighborhood": "South Philadelphia",
+      "nee": "Boot & Saddle"
+    },
+    {
+      "name": "Theatre of Living Arts",
+      "links": [
+        { "url": "https://www.tlaphilly.com/", "text": "www.tlaphilly.com" },
+        { "url": "https://www.livenation.com/venue/KovZpZAEAIaA/theatre-of-living-arts-events", "text": "www.livenation.com" }
+      ],
+      "address": ["334 South Street", "Philadephia, PA 19147"],
+      "capacity": "800",
+      "neighborhood": "South Street",
+      "aka": "the TLA"
+    },
+    {
+      "name": "Underground Arts",
+      "links": [
+        { "url": "https://undergroundarts.org/", "text": "undergroundarts.org" },
+        { "url": "https://www.bowerypresents.com/greater-philly/shows/underground-arts", "text": "www.bowerypresents.com" }
+      ],
+      "address": ["1200 Callowhill Street", "Philadelphia, PA 19107"],
+      "capacity": "650",
+      "neighborhood": "Callowhill"
+    },
+    {
+      "name": "Union Transfer",
+      "links": [
+        { "url": "https://www.utphilly.com/", "text": "www.utphilly.com" },
+        { "url": "https://www.bowerypresents.com/greater-philly/shows/union-transfer", "text": "www.bowerypresents.com" }
+      ],
+      "address": ["1026 Spring Garden Street", "Philadelphia, PA 19123"],
+      "capacity": "1,200",
+      "neighborhood": "Callowhill"
+    },
+    {
+      "name": "World Cafe Live",
+      "links": [
+        { "url": "https://worldcafelive.org/", "text": "worldcafelive.org" }
+      ],
+      "address": ["3025 Walnut Street", "Philadelphia, PA 19104"],
+      "capacity": "650 Music Hall, 220 Lounge",
+      "neighborhood": "University City"
+    }
+  ]
+}

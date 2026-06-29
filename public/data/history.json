@@ -56,12 +56,14 @@
     {
       "artist": "Remember Sports",
       "date": "July 25, 2023",
-      "venue": "Johnny Brenda's, Philadelphia, PA"
+      "venue": "Johnny Brenda's, Philadelphia, PA",
+      "image": "PXL_20230726_013124011.jpg"
     },
     {
       "artist": "First Aid Kit",
       "date": "July 15, 2023",
-      "venue": "The Fillmore, Philadelphia, PA"
+      "venue": "The Fillmore, Philadelphia, PA",
+      "image": "PXL_20230716_013110114.jpg"
     },
     {
       "artist": "Erin McKeown",
@@ -71,7 +73,8 @@
     {
       "artist": "Chief Adjuah/Christian Scott Quintet",
       "date": "September 10, 2017",
-      "venue": "World Cafe Live - Downstairs, Philadelphia, PA"
+      "venue": "World Cafe Live - Downstairs, Philadelphia, PA",
+      "image": "IMG_20170910_202825.jpg"
     },
     {
       "artist": "San Fermin",

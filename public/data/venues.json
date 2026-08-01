@@ -171,13 +171,14 @@
       "neighborhood": "Callowhill"
     },
     {
-      "name": "World Cafe Live",
+      "name": "World Stage",
       "links": [
-        { "url": "https://worldcafelive.org/", "text": "worldcafelive.org" }
+        { "url": "https://worldstage.live/", "text": "worldstage.live" }
       ],
       "address": ["3025 Walnut Street", "Philadelphia, PA 19104"],
       "capacity": "650 Music Hall, 220 Lounge",
-      "neighborhood": "University City"
+      "neighborhood": "University City",
+      "nee": "World Cafe Live"
     }
   ]
 }

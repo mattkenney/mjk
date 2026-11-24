@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { Content, Panel } from 'react-bulma-components';
 
 export function Music() {

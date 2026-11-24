@@ -1,5 +1,5 @@
 import { Navbar } from 'react-bulma-components';
-import { BrowserRouter as Router, NavLink, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, NavLink, Route, Routes } from 'react-router';
 
 import { Blog } from './views/Blog';
 import { BlogEntry } from './views/BlogEntry';

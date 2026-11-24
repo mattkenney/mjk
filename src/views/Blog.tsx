@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Panel, Section } from 'react-bulma-components';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 interface Entry {
   path: string;

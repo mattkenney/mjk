@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Card, Content, Section } from 'react-bulma-components';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router';
 
 export function BlogEntry() {
   const { id } = useParams();

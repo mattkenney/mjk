@@ -1,5 +1,5 @@
 import { Card, Section } from 'react-bulma-components';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router';
 
 export function Music() {
   const { id } = useParams();
